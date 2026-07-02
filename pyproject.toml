@@ -1,0 +1,29 @@
+[project]
+name = "ComfyUI_CreativeCode"
+version = "1.0.0"
+description = "Write and preview GLSL and p5.js shaders directly inside ComfyUI with a full code editor."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "SKBv0" }
+]
+keywords = ["comfyui", "glsl", "p5js", "shader", "creative-coding"]
+classifiers = [
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "moderngl",
+    "numpy",
+    "torch",
+    "aiohttp",
+    "Pillow",
+]
+
+[project.urls]
+Repository = "https://github.com/SKBv0/ComfyUI_CreativeCode"
+"Bug Tracker" = "https://github.com/SKBv0/ComfyUI_CreativeCode/issues"
+
+[tool.comfy]
+PublisherId = "skb"
+DisplayName = "ComfyUI CreativeCode"
